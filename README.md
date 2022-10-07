@@ -3,7 +3,7 @@ Pytorch Implementation of AACL Findings 2022 paper ["Efficient Entity Embedding
 Construction from Type Knowledge for BERT"](to_add)
 
 ## Download entity types
-We extracted entity types through instanceof relation from Wikidata and it can be downloaded from [here](https://drive.google.com/file/d/17ClfmuM65U_rRG4OHx34TMXvE0EEyiki/view?usp=sharing).
+We extracted entity types through instanceof relation from Wikidata and it can be downloaded from [here](https://drive.google.com/file/d/17ClfmuM65U_rRG4OHx34TMXvE0EEyiki/view?usp=sharing) (around 140MB).
 After downloading, unzip it and move to `./resources/`:
 ```
 gzip -d  wikidata_entity_types.tsv.gz
@@ -25,7 +25,7 @@ conda env create -f environment.yaml
 conda activate e-bert
 ```
 
-Then download wikipedia2vec (used only to get normalized wikipedia titles):
+Then download wikipedia2vec (around 30GB, used only to get normalized wikipedia titles):
 ```
 wget https://www.cis.uni-muenchen.de/~poerner/blobs/e-bert/wikipedia2vec-base-cased
 mv wikipedia2vec-base-cased resources/wikipedia2vec
