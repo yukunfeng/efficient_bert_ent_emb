@@ -1,4 +1,3 @@
-## Efficient Entity Embedding Construction from Type Knowledge for BERT
 Pytorch Implementation of AACL Findings 2022 paper ["Efficient Entity Embedding
 Construction from Type Knowledge for BERT"](to_add)
 
